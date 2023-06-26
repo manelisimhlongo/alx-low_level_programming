@@ -14,9 +14,9 @@ char *_strcpy(char *dest, char *scr)
 {
 	char *copy = dest;
 
-	while(*scr != '\0')
+	while (*scr != '\0')
 		*dest++ = *scr++;
 
 	*dest ='\0';
-	return(copy);
+	return (copy);
 }
