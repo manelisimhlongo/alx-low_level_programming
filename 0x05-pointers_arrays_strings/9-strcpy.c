@@ -10,15 +10,13 @@
  *
  * Return: pointer to dest
  */
-char* _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *scr)
 {
-    char *original_dest = dest;
+	char *copy = dest;
 
-    while (*src != '\0') {
-        *dest++ = *src++;
-    }
+	while(*scr != '/0')
+		*dest++ = *scr++;
 
-    *dest = '\0'; 
-
-    return original_dest;
+	*dest ='/0';
+	return(copy);
 }
