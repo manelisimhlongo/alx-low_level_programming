@@ -8,7 +8,7 @@ int main(void)
 
   a[2] = 1024;
   p = &n;
-  *p = 98;
+  *(p + 8) = 98;
   /*
    * write your line of code here...
    * Remember:
